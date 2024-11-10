@@ -2750,7 +2750,7 @@ $(function() {
     var windowHalfY = window.innerHeight / 2;
     var particles = [];
     var particleImage = new Image();
-    particleImage.src = "https://www.wenytao.com/zb_users/upload/winter/xue2/js/xue.png";
+    particleImage.src = "https://files.webeffect.muanxue.cn/assets/img/xiaxue.png";
     var snowNum = 500;
 
     function init() {

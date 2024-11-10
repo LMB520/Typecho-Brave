@@ -2,8 +2,8 @@
 /**
  * 主题首页
  * @package custom
- * Author: Veen Zhao
- * CreateTime: 2021/2/6 22:32
+ * Author: 林墨白
+ * CreateTime: 2024/11/9
  */
 $this->need('base/head.php');
 $this->need('base/nav.php');
@@ -12,14 +12,14 @@ $this->need('base/other.php');
 </script>
 <div class="container">
     <div class="row indexPlate">
-<?php if ($this->options->blessingSwitch == '1'): ?>
+<?php if ($this->options->blessSwitch == '1'): ?>
     <div class="col-md-4 fade-in-1">
-        <a href="<?php $this->options->blessingPageLink() ?>" class="card home-card">
+        <a href="<?php $this->options->blessPageLink() ?>" class="card home-card">
             <div class="card-body">
                 <div class="row align-items-center">
                     <div class="col-auto">
                         <div class="avatar avatar-md">
-                            <img style="width:60px;height:auto" class="lazy" src="/usr/themes/Brave/asset/img/lazyload.svg" data-original="<?php $this->options->blessingPageIcon() ?>" alt="...">
+                            <img style="width:60px;height:auto" class="lazy" src="/usr/themes/Brave/asset/img/lazyload.svg" data-original="<?php $this->options->blessPageIcon() ?>" alt="...">
                         </div>
                     </div>
                     <div class="col">

@@ -19,7 +19,7 @@ echo date("Y");
 </div>
 <?php if (is_array($this->options->Specialeffects))
 {
-    if (in_array('dazi', $this->options->Specialeffects))
+    if (in_array('yuqun', $this->options->Specialeffects))
     {
         echo '<!--底部鱼群特效-->
         <div id="j-fish-skip" style=" position: relative;height: 200px;width: auto;"></div>';

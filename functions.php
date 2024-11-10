@@ -107,22 +107,22 @@ if ($lovetextSwitch == '1')
     $lovetext = new Text('lovetext', NULL, NULL, _t('情话加载时的占位词'), _t('随便填，例如：Loading…、加载中…、喜欢你是我的秘密等等等之类的，或者也可以不填'));
     $form->addInput($lovetext);
 }
-$blessingSwitch = new Radio(
-'blessingSwitch',
+$blessSwitch = new Radio(
+'blessSwitch',
 array(
 '1' => _t('显示'),
 '0' => _t('隐藏')
 ),
 '0', _t('首页祝福墙小组件开关💌'), _t('选择是否在首页显示祝福墙')
 );
-$form->addInput($blessingSwitch);
-$blessingSwitch = Helper::options()->blessingSwitch;
-if ($blessingSwitch == '1')
+$form->addInput($blessSwitch);
+$blessSwitch = Helper::options()->blessSwitch;
+if ($blessSwitch == '1')
 {
-    $blessingPageIcon = new Text('blessingPageIcon', NULL, NULL, _t('图标'), _t('在此输入图标直链，将显示在首页祝福墙小版块中'));
-    $form->addInput($blessingPageIcon);
-    $blessingPageLink = new Text('blessingPageLink', NULL, NULL, _t('链接'), _t('在此输入祝福页面链接'));
-    $form->addInput($blessingPageLink);
+    $blessPageIcon = new Text('blessPageIcon', NULL, NULL, _t('图标'), _t('在此输入图标直链，将显示在首页祝福墙小版块中'));
+    $form->addInput($blessPageIcon);
+    $blessPageLink = new Text('blessPageLink', NULL, NULL, _t('链接'), _t('在此输入祝福页面链接'));
+    $form->addInput($blessPageLink);
 }
 $timeSwitch = new Radio('timeSwitch',
 array(
@@ -135,7 +135,7 @@ if ($timeSwitch == '1')
 {
     $timePageIcon = new Text('timePageIcon', NULL, NULL, _t('图标'), _t('在此输入图标直链，将显示在首页点点滴滴小版块中'));
     $form->addInput($timePageIcon);
-    $timePageLink = new Text('timePageLink', NULL, NULL, _t('链接'), _t('在此输入祝福页面链接，一般为：/blog'));
+    $timePageLink = new Text('timePageLink', NULL, NULL, _t('链接'), _t('在此输入点点滴滴页面链接，一般为：/blog'));
     $form->addInput($timePageLink);
 }
 $shuoshuoSwitch = new Radio('shuoshuoSwitch',
@@ -193,7 +193,9 @@ if ($photoSwitch == '1')
     $photoPageIcon = new Text('photoPageIcon', NULL, NULL, _t('图标'), _t('在此输入图标直链，将显示在首页相册小版块中'));
     $form->addInput($photoPageIcon);
     $photoPageLink = new Text('photoPageLink', NULL, NULL, _t('链接'), _t('在此输入相册页面链接'));
-    $form->addInput($photoPageLink);
+    $form->addInput($photoPageLink);  
+    $photoPageJsDelivr = new Text('photoPageJsDelivr', NULL, NULL, _t('JsDelivr源'), _t('在此输入相册页面中的JsDelivr源，并且请加上http(s)://和/，不会请查看食用教程'));
+    $form->addInput($photoPageJsDelivr); 
 }
 $Vaptcha = new Radio('Vaptcha',
 array(
@@ -220,6 +222,8 @@ $stylemyself = new Textarea('stylemyself', NULL, NULL, _t('自定义Css样式'),
 $form->addInput($stylemyself);
 $CustomContent = new Textarea('CustomContent', NULL, NULL, _t('底部自定义内容'), _t('位于底部，footer之后body之前，适合放置一些js或自定义内容，如网站统计代码等，（注意：如果您开启了Pjax，暂时只支持百度统计、Google统计，其余统计代码可能会不准确；没开请忽略）'));
 $form->addInput($CustomContent);
+$quickget = new Textarea('quickget', NULL, NULL, _t('快速获取评论者信息实现(JS代码)'), _t('用于游客评论时，可以输入QQ号快速获取邮箱、头像等信息，不会请查看食用教程'));
+$form->addInput($quickget);
 $pjaxSwitch = new Radio('pjaxSwitch',
 array(
 '1' => _t('启用'),

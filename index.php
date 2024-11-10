@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 /**
 * 勇敢爱 - Typecho情侣主题(魔改版)
 * @package     Brave
-* @author      Veen Zhao
-* @version     Lv-1.4.1
-* @link        https://blog.zwying.com
+* @author      林墨白
+* @version     Lv1.5.0
+* @link        https://blog.lmb520.cn
 */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('base/head.php');

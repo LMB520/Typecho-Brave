@@ -56,9 +56,9 @@ button.botui-actions-buttons-button {
 
 .botui-container {
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 .botui-message {

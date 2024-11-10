@@ -25,18 +25,18 @@ class App
                 {
                     $str = $email . '@qq.com';
                     $email = md5($str);
-                    return "//sdn.geekzu.org/avatar/" . $email . "?";
+                    return "//cravatar.cn/avatar/" . $email . "?";
                 }
             }
             else
             {
                 $email = md5($ctx);
-                return "//sdn.geekzu.org/avatar/" . $email . "?";
+                return "//cravatar.cn/avatar/" . $email . "?";
             }
         }
         else
         {
-            return "//sdn.geekzu.org/avatar/null?";
+            return "//cravatar.cn/avatar/null?";
         }
     }
 }
@@ -61,9 +61,9 @@ function loveListAcc($atts, $content = '')
             $out .= '<div class="card-header p-1 bg-white" id="heading'.$key.'"><h2 class="mb-0">';
             $out .= '<span class="btn collapsed ml-auto d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse'.$key.'" aria-expanded="false" aria-controls="collapse'.$key.'">';
             if ($value['status'] == "0")
-            $out .= '<img class="statusIcon" src="'.Helper::options()->themeUrl.'/svg/todo.svg">';
+            $out .= '<img class="statusIcon" src="'.Helper::options()->themeUrl.'/asset/img/todo.svg">';
             else
-            $out .= '<img class="statusIcon" src="'.Helper::options()->themeUrl.'/svg/ok.svg">';
+            $out .= '<img class="statusIcon" src="'.Helper::options()->themeUrl.'/asset/img/ok.svg">';
             $out .= '<strong>'.$matches[5][$key].'</strong>';
             $out .= '</span></h2></div>';
             $out .= '<div id="collapse'.$key.'" class="collapse" aria-labelledby="heading'.$key.'" data-parent="#loveList">';

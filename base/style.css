@@ -334,7 +334,7 @@ textarea.form-control:focus {
     transition: all 0.25s ease-in-out 0s;
 }
 
-#qq.control:focus,
+#qq.form-control:focus,
 #mail.form-control:focus,
 #author.form-control:focus,
 #url.form-control:focus {

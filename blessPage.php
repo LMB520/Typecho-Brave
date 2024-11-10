@@ -2,8 +2,8 @@
 /**
 * 祝福墙
 * @package custom
-* Author: Veen Zhao
-* CreateTime: 2020/9/6 15:38
+* Author: 林墨白
+* CreateTime: 2024/11/9
 */
 $this->need('base/head.php');
 $this->need('base/nav.php');
@@ -41,6 +41,7 @@ echo $commentClass;
 <div class="comment-avatar"><img alt="" src="/usr/themes/Brave/asset/img/lazyload.svg" data-original="<?= App::avatarQQ($comments->mail); ?>s=100" class="avatar avatar-96 photo lazy" style="display: inline;"></div>
 <div class="comment-body">
 <div class="comment_author">
+<em><?php XQLocation_Plugin::render($comments->ip); ?></em><br>
 <span class="name"><?php $comments->author();
 ?></span>
 <em><?php $comments->date('Y-m-d H:i');
@@ -48,7 +49,8 @@ echo $commentClass;
 </div>
 <div class="comment-text">
 <?php
-$cos = preg_replace('#\:@\((.*?)\)#','<img style="width:20px;height:20px" src="'.$GLOBALS['theme_url'].'/usr/themes/Brave/asset/OwO/QQ/$1.gif">',$comments->content);
+$theme_url = isset($GLOBALS['theme_url']) ? $GLOBALS['theme_url'] : 'default_value';
+$cos = preg_replace('#\:@\((.*?)\)#','<img style="width:20px;height:20px" src="'.$theme_url.'/usr/themes/Brave/asset/OwO/QQ/$1.gif">',$comments->content);
 echo $cos;
 ?>
 </div>
@@ -89,63 +91,23 @@ href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName();
 <div class="form-group col-md-4">
 <div style="display: flex; align-items: center;">
 <img src="/usr/themes/Brave/asset/img/lazyload.svg" data-original="/usr/themes/Brave/asset/img/love.png" id="avatar" class="comment-avatar lazy" style="margin-right: 10px;height:60px;width:auto;">
-<input type="text" name="qq" id="qq" class="form-control" placeholder="输入QQ号自动获取信息" required/>
+<input type="text" name="qq" id="qq" class="form-control" placeholder="输入QQ号自动获取信息" />
 </div>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group col-md-4">
+<input type="text" name="author" id="author" class="form-control qq-form" placeholder="昵称(必填)" required/>
 </div>
 <div class="form-group col-md-4">
-<input type="text" name="author" id="author" class="form-control" placeholder="昵称*" required/>
-</div>
-<div class="form-group col-md-4">
-<input type="email" name="mail" id="mail" class="form-control" placeholder="邮箱*"/>
+<input type="email" name="mail" id="mail" class="form-control" placeholder="邮箱(必填)"/>
 </div>
 <div class="form-group col-md-4">
 <input type="url" name="url" id="url" class="form-control" placeholder="网站或博客(可不填)" />
 </div>
 </div>
+<?php $this->options->quickget() ?>
 <script>
-var qqInput = document.getElementById('qq');
-var avatarImg = document.getElementById('avatar');
-qqInput.addEventListener('blur', function ()
-{
-    var qq = this.value;
-    if (qq.length >= 7 && qq.length <= 12)
-    {
-        $.ajax(
-        {
-            url: "https://api.usuuu.com/qq/" + qq,
-            type: "GET",
-            timeout: 5000,
-            dataType: "json",
-            success: function (data)
-            {
-                if (data.code === 200)
-                {
-                    var qqData = data.data;
-                    document.getElementById('author').value = qqData.name;
-                    document.getElementById('mail').value = qqData.email;
-                    document.getElementById('url').value = 'https://' + qq + '.qzone.qq.com';
-                    avatarImg.src = qqData.avatar;
-                }
-                else
-                {
-                    console.log(data.msg);
-                }
-            }
-            ,
-            error: function (xhr, status, error)
-            {
-                console.log(error);
-            }
-        }
-        );
-    }
-    else
-    {
-        // 如果 QQ 号不符合要求，显示默认头像
-        avatarImg.src = "/usr/themes/Brave/asset/img/love.png";
-    }
-}
-);
 document.getElementById('author').addEventListener('blur', function()
 {
     var forbiddenNames = [ '<?php $this->options->boyname(); ?>' , '<?php $this->options->girlname(); ?>' ];

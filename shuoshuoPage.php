@@ -2,8 +2,8 @@
 /**
 * 随笔说说
 * @package custom
-* Author: Veen Zhao
-* CreateTime: 2020/9/6 15:38
+* Author: 林墨白
+* CreateTime: 2024/11/9
 */
 $this->need('base/head.php');
 $this->need('base/nav.php');
@@ -48,7 +48,8 @@ echo $commentClass;
 </div>
 <div class="comment-text">
 <?php
-$cos = preg_replace('#\:@\((.*?)\)#','<img style="width:20px;height:20px" src="'.$GLOBALS['theme_url'].'/usr/themes/Brave/asset/OwO/QQ/$1.gif">',$comments->content);
+$theme_url = isset($GLOBALS['theme_url']) ? $GLOBALS['theme_url'] : 'default_value';
+$cos = preg_replace('#\:@\((.*?)\)#','<img style="width:20px;height:20px" src="'.$theme_url.'/usr/themes/Brave/asset/OwO/QQ/$1.gif">',$comments->content);
 echo $cos;
 ?>
 </div>
