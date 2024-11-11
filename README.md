@@ -44,9 +44,9 @@ Brave主题是一款拥有多功能适合有对象的博主使用，可以和对
 首页页面创建好后，请在设置首页(如下图)
 ![63adb5b22d881.jpg](https://files.blog.lmb520.cn/usr/uploads/2024/03/2979583049.jpg)
 然后就是主题设置了，主题设置内容截图
-![_love.lmb520.cn.jpeg](https://files.blog.lmb520.cn/usr/uploads/2024/11/1384224947.jpeg)
+[_love.lmb520.cn.jpeg](https://files.blog.lmb520.cn/usr/uploads/2024/11/1384224947.jpeg)
 
-喜欢的功能就打开，不喜欢就不打开，自由支配功能
+自由支配小组件，喜欢的小组件就打开，不喜欢就不打开。
 
 ## 伪静态配置
 **请配置好伪静态规则，并将“是否使用地址重写功能”打开**
