@@ -4,8 +4,11 @@
 Brave主题是一款拥有多功能适合有对象的博主使用，可以和对象一起记录自己的恋爱历程。
 ## 原版本
 **作者：**[赵阿卷](https://blog.zwying.com/)
+
 **下载：**[https://github.com/zwying0814/Brave](https://github.com/zwying0814/Brave)
+
 **教程：**[https://blog.zwying.com/archives/59.html](https://blog.zwying.com/archives/59.html)
+
 ## 魔改版
 **演示：** [love.lmb520.cn](https://love.lmb520.cn)   
 **下载：** [https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0](https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0)
