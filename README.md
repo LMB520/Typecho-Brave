@@ -9,6 +9,7 @@ Brave主题是一款拥有多功能适合有对象的博主使用，可以和对
 ## 魔改版
 **演示：** [love.lmb520.cn](https://love.lmb520.cn)<br>
 **下载：** [https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0](https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0)<br>
+**博客教程：** [https://blog.lmb520.cn/archives/1196/](https://blog.lmb520.cn/archives/1196/)
 
 感谢[伊梦乡归处](https://blog.pyrroleach.com/)提供部分魔改教程
 
@@ -43,7 +44,7 @@ Brave主题是一款拥有多功能适合有对象的博主使用，可以和对
 首页页面创建好后，请在设置首页(如下图)
 ![63adb5b22d881.jpg](https://files.blog.lmb520.cn/usr/uploads/2024/03/2979583049.jpg)
 然后就是主题设置了，主题设置内容截图
-[_love.lmb520.cn.jpeg](https://files.blog.lmb520.cn/usr/uploads/2024/11/1384224947.jpeg)
+![_love.lmb520.cn.jpeg](https://files.blog.lmb520.cn/usr/uploads/2024/11/1384224947.jpeg)
 
 喜欢的功能就打开，不喜欢就不打开，自由支配功能
 
