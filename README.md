@@ -5,12 +5,10 @@ Brave主题是一款拥有多功能适合有对象的博主使用，可以和对
 ## 原版本
 **作者：**[赵阿卷](https://blog.zwying.com/)<br>
 **下载：**[https://github.com/zwying0814/Brave](https://github.com/zwying0814/Brave)<br>
-**教程：**[https://blog.zwying.com/archives/59.html](https://blog.zwying.com/archives/59.html)
-
+**教程：**[https://blog.zwying.com/archives/59.html](https://blog.zwying.com/archives/59.html)<br>
 ## 魔改版
-**演示：** [love.lmb520.cn](https://love.lmb520.cn)   
-**下载：** [https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0](https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0)
-
+**演示：** [love.lmb520.cn](https://love.lmb520.cn)<br>
+**下载：** [https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0](https://github.com/LMB520/Typecho-Brave/tree/Lv1.5.0)<br>
 
 感谢[伊梦乡归处](https://blog.pyrroleach.com/)提供部分魔改教程
 
@@ -38,10 +36,10 @@ Brave主题是一款拥有多功能适合有对象的博主使用，可以和对
 # 魔改版食用教程
 ## 主题配置
 **推荐在php7.4版本运行，太高的版本会报错**
-将主题压缩包完整上传到服务器上 Typecho 的`/usr/themes/`文件夹内，解压，然后到 Typecho `后台-控制台-外观-启用主题`即可
+将主题压缩包完整上传到服务器上 Typecho 的`/usr/themes/`文件夹内，解压，然后到 Typecho `后台-控制台-外观-启用主题`即可<br>
 由于本版本魔改太多，建议将原版或者其他魔改版备份后删除，再食用本主题。
-启用后，创建对应页面，这里有几个页面需要创建，分别是首页页面、祝福板页面、点点滴滴页面、随笔说说页面、关于我们页面、恋爱清单页面、相册页面
-**除了首页页面其他的页面不是必须创建，而且一定要选择对应的模板！！！**
+启用后，创建对应页面，这里有几个页面需要创建，分别是首页页面、祝福板页面、点点滴滴页面、随笔说说页面、关于我们页面、恋爱清单页面、相册页面<br>
+**除了首页页面其他的页面不是必须创建，而且一定要选择对应的模板！！！**<br>
 首页页面创建好后，请在设置首页(如下图)
 ![63adb5b22d881.jpg](https://files.blog.lmb520.cn/usr/uploads/2024/03/2979583049.jpg)
 然后就是主题设置了，主题设置内容截图
@@ -70,7 +68,7 @@ RewriteRule . /index.php [L]
 ```
 
 ## 基础内置图片配置
-我们魔改版内置了许多图片，填写内置图片后可以让你快速配置主题以达到效果
+我们魔改版内置了许多图片，填写内置图片后可以让你快速配置主题以达到效果<br>
 **头部大图设置**
 ```html
 /usr/themes/Brave/asset/img/background.jpg
@@ -173,8 +171,7 @@ if (qqInput && avatarImg) {
 [/loveList]
 ```
 **参数说明：**
-status为0将显示灰色对勾，代表未完成此项，为1会显示绿色对勾，代表完成此项img后面可以填写图片的链接，将显示在清单展开后，不填默认灰色填充，listct后面填写时间内容(格式不做规定)
-
+status为0将显示灰色对勾，代表未完成此项，为1会显示绿色对勾，代表完成此项img后面可以填写图片的链接，将显示在清单展开后，不填默认灰色填充，listct后面填写时间内容(格式不做规定)<br>
 如果需要预制好的恋爱清单，就直接将以下内容完整复制到到恋爱清单页面里
 ```Markdown
 [loveList]
@@ -325,10 +322,8 @@ picture3,2020年01月03日拍摄,https://ww2.sinaimg.cn/large/006uAlqKgy1fzlbjrx
 **注意：** 主题的Vaptcha人机验证开关和Vaptcha插件要同步启用和关闭
 
 ## Pjax无刷新配置
-PJAX（Pushstate + Ajax）是一种用于加快网页加载速度的技术。它结合了HTML5的pushState API和Ajax技术，使得在不刷新整个页面的情况下，可以实现局部页面内容的更新。然而，PJAX也有一些局限性，例如像某些API无法进行及时获取更新内容。
-
-如果你启用了**Pjax无刷新**，但是关闭了**Vaptcha人机验证**，那么你无需配置任何内容，因为相关API的重载我们已经写入了代码里。
-
+PJAX（Pushstate + Ajax）是一种用于加快网页加载速度的技术。它结合了HTML5的pushState API和Ajax技术，使得在不刷新整个页面的情况下，可以实现局部页面内容的更新。然而，PJAX也有一些局限性，例如像某些API无法进行及时获取更新内容。<br>
+如果你启用了**Pjax无刷新**，但是关闭了**Vaptcha人机验证**，那么你无需配置任何内容，因为相关API的重载我们已经写入了代码里。<br>
 如果你既启用了**Pjax无刷新**，又启用了**Vaptcha人机验证**，那么需要在`Pjax回调函数`填入以下内容
 ``` JS
 //vaptcha验证
