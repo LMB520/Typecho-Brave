@@ -123,6 +123,12 @@ if ($blessSwitch == '1')
     $form->addInput($blessPageIcon);
     $blessPageLink = new Text('blessPageLink', NULL, NULL, _t('链接'), _t('在此输入祝福页面链接'));
     $form->addInput($blessPageLink);
+    $quickget = new Textarea('quickget', NULL, NULL, _t('快速获取祝福者信息核心(JS代码)'), _t('用于游客评论时，可以输入QQ号快速获取邮箱、头像等信息，不会请查看食用教程'));
+    $form->addInput($quickget);
+echo '
+    <div class="tips">
+      <h4>祝福墙已适配由<a href="https://www.toubiec.cn/">苏晓晴</a>开发的显示归属地<a href="https://www.toubiec.cn/1194.html">XQLocation</a>插件，将插件上传服务器并启用即可</h4>
+    </div>';
 }
 $timeSwitch = new Radio('timeSwitch',
 array(
@@ -166,20 +172,20 @@ if ($aboutSwitch == '1')
     $aboutPageLink = new Text('aboutPageLink', NULL, NULL, _t('链接'), _t('在此输入关于我们链接'));
     $form->addInput($aboutPageLink);
 }
-$loveListSwitch = new Radio('loveListSwitch',
+$lovelistSwitch = new Radio('lovelistSwitch',
 array(
 '1' => _t('显示'),
 '0' => _t('隐藏')
 ), '0', _t('首页恋爱清单小组件开关📋'), _t('选择是否显示恋爱清单'));
-$form->addInput($loveListSwitch);
-$loveListSwitch = Helper::options()->loveListSwitch;
-if ($loveListSwitch == '1')
+$form->addInput($lovelistSwitch);
+$lovelistSwitch = Helper::options()->lovelistSwitch;
+if ($lovelistSwitch == '1')
 {
-    $loveListPageIcon = new
-    Text('loveListPageIcon', NULL, NULL, _t('图标'), _t('在此输入图标直链，将显示在首页恋爱清单小版块中'));
-    $form->addInput($loveListPageIcon);
-    $loveListPageLink = new Text('loveListPageLink', NULL, NULL, _t('链接'), _t('在此输入恋爱清单页面链接'));
-    $form->addInput($loveListPageLink);
+    $lovelistPageIcon = new
+    Text('lovelistPageIcon', NULL, NULL, _t('图标'), _t('在此输入图标直链，将显示在首页恋爱清单小版块中'));
+    $form->addInput($lovelistPageIcon);
+    $lovelistPageLink = new Text('lovelistPageLink', NULL, NULL, _t('链接'), _t('在此输入恋爱清单页面链接'));
+    $form->addInput($lovelistPageLink);
 }
 $photoSwitch = new Radio('photoSwitch',
 array(
@@ -222,8 +228,6 @@ $stylemyself = new Textarea('stylemyself', NULL, NULL, _t('自定义Css样式'),
 $form->addInput($stylemyself);
 $CustomContent = new Textarea('CustomContent', NULL, NULL, _t('底部自定义内容'), _t('位于底部，footer之后body之前，适合放置一些js或自定义内容，如网站统计代码等，（注意：如果您开启了Pjax，暂时只支持百度统计、Google统计，其余统计代码可能会不准确；没开请忽略）'));
 $form->addInput($CustomContent);
-$quickget = new Textarea('quickget', NULL, NULL, _t('快速获取评论者信息实现(JS代码)'), _t('用于游客评论时，可以输入QQ号快速获取邮箱、头像等信息，不会请查看食用教程'));
-$form->addInput($quickget);
 $pjaxSwitch = new Radio('pjaxSwitch',
 array(
 '1' => _t('启用'),

@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 /**
 * 勇敢爱 - Typecho情侣主题(魔改版)
 * @package     Brave
 * @author      林墨白
-* @version     Lv1.5.0
+* @version     Lv1.5.1
 * @link        https://blog.lmb520.cn
 */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

@@ -88,14 +88,14 @@ $this->need('base/other.php');
     </a>
 </div>
         <?php endif; ?>
-        <?php if ($this->options->loveListSwitch == '1'): ?>
+        <?php if ($this->options->lovelistSwitch == '1'): ?>
         <div class="col-md-4 fade-in-1">
-            <a href="<?php $this->options->loveListPageLink() ?>" class="card ">
+            <a href="<?php $this->options->lovelistPageLink() ?>" class="card ">
                 <div class="card-body">
                     <div class="row align-items-center">
                         <div class="col-auto">
                             <div class="avatar avatar-md">
-                                <img style="width:60px;height:auto" class="lazy" src="/usr/themes/Brave/asset/img/lazyload.svg"  data-original="<?php $this->options->loveListPageIcon() ?>" alt="...">
+                                <img style="width:60px;height:auto" class="lazy" src="/usr/themes/Brave/asset/img/lazyload.svg"  data-original="<?php $this->options->lovelistPageIcon() ?>" alt="...">
                             </div>
                         </div>
                         <div class="col">
