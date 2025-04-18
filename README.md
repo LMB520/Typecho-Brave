@@ -1,7 +1,7 @@
 ![screenshot.png](https://files.blog.lmb.blue/usr/uploads/2025/04/3160254324.png)
 
 # 介绍
-Brave是一款好看且拥有多功能Typecho恋爱主题，它非常适合有对象的博主使用。
+Brave是一款好看且拥有多功能Typecho情侣主题，它非常适合有对象的博主使用。
 ## 原版本
 **链接：**[https://github.com/zwying0814/Brave](https://github.com/zwying0814/Brave)<br>
 **作者：**[赵阿卷](https://blog.zwying.com/)<br>
