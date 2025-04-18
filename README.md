@@ -1,14 +1,14 @@
 ![screenshot.png](https://files.blog.lmb.blue/usr/uploads/2025/04/3160254324.png)
 
 # 介绍
-Brave是一款拥有多功能恋爱Typecho主题，它适合有对象的博主使用并一起记录恋爱历程。
+Brave是一款拥有多功能Typecho恋爱主题，它非常适合有对象的博主使用。
 ## 原版本
-[https://github.com/zwying0814/Brave](https://github.com/zwying0814/Brave)
-**作者：**[赵阿卷](https://blog.zwying.com/)
+[https://github.com/zwying0814/Brave](https://github.com/zwying0814/Brave)<br>
+**作者：**[赵阿卷](https://blog.zwying.com/)<br>
 **教程：**[https://blog.zwying.com/archives/59.html](https://blog.zwying.com/archives/59.html)
 ## 魔改版
-[https://github.com/LMB520/Typecho-Brave](https://github.com/LMB520/Typecho-Brave)
-**个人演示站：** [love.lmb.blue](https://love.lmb.blue)
+[https://github.com/LMB520/Typecho-Brave](https://github.com/LMB520/Typecho-Brave)<br>
+**个人演示站：** [love.lmb.blue](https://love.lmb.blue)<br>
 **官方演示站：**[brave.lmb520.cn](https://brave.lmb520.cn/)(可登录后台)
 # 功能
 * Pjax无刷新
