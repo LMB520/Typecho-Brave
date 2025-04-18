@@ -1,7 +1,7 @@
-(function(factory) {
+(function (factory) {
     typeof define === 'function' && define.amd ? define(factory) :
         factory();
-}((function() {
+}((function () {
     'use strict';
 
     function styleInject(css, ref) {

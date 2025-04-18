@@ -1,3 +1,4 @@
+/*引入HarmonyOS_Sans*/
 @font-face {
     font-family: 'HarmonyOS_Sans';
     font-style: normal;
@@ -7,6 +8,14 @@
 
 * {
     font-family: 'HarmonyOS_Sans';
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
 
 .page-navigator {
@@ -149,12 +158,12 @@ ol {
     height: 5rem
 }
 
-.waves-area .parallax>use {
+.waves-area .parallax > use {
     -webkit-animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite
 }
 
-.waves-area .parallax>use:first-child {
+.waves-area .parallax > use:first-child {
     -webkit-animation-delay: -2s;
     animation-delay: -2s;
     -webkit-animation-duration: 7s;
@@ -162,7 +171,7 @@ ol {
     fill: hsla(0, 0%, 100%, .7)
 }
 
-.waves-area .parallax>use:nth-child(2) {
+.waves-area .parallax > use:nth-child(2) {
     -webkit-animation-delay: -3s;
     animation-delay: -3s;
     -webkit-animation-duration: 10s;
@@ -170,7 +179,7 @@ ol {
     fill: hsla(0, 0%, 100%, .5)
 }
 
-.waves-area .parallax>use:nth-child(3) {
+.waves-area .parallax > use:nth-child(3) {
     -webkit-animation-delay: -4s;
     animation-delay: -4s;
     -webkit-animation-duration: 13s;
@@ -178,7 +187,7 @@ ol {
     fill: hsla(0, 0%, 100%, .3)
 }
 
-.waves-area .parallax>use:nth-child(4) {
+.waves-area .parallax > use:nth-child(4) {
     -webkit-animation-delay: -5s;
     animation-delay: -5s;
     -webkit-animation-duration: 20s;
@@ -235,7 +244,7 @@ ol {
     display: block;
     padding-top: 50%;
     background-position: 50% 50%;
-    background-color: #eee;
+    background-color: white;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -263,7 +272,7 @@ ol {
 .commentlist .comment {
     clear: both;
     margin: 25px 0;
-    margin-left: 76px;
+    margin-left: 48px;
     position: relative;
     margin-bottom: 20px;
     padding: 8px 15px 2px 15px;
@@ -293,14 +302,6 @@ ol {
 .commentlist .comment .comment-text {
     padding: 10px 0;
     color: #282828;
-}
-
-.commentlist .comment .comment_reply {
-    display: block;
-    text-align: right;
-    margin: 0;
-    font-size: 12px;
-    color: #757e91;
 }
 
 .commentlist em {
@@ -491,8 +492,13 @@ textarea.form-control,
     }
 }
 
-/*文章样式部分*/
-/*开始*/
+/*文章列表*/
+.post {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: white;
+}
 
 /* 全局声明 */
 #article {
@@ -576,7 +582,7 @@ h3 {
 #article blockquote {
     font-family: "Helvetica", Arial, "kaiti", "pingfangSC light", "microsoft yahei" !important;
     margin: 1.6rem auto 1.2rem !important;
-    padding: 15px 10px 1px 15px;
+    padding: 15px 15px 15px 15px;
     line-height: 27px;
     background-color: #F7F7F7;
     border-left: 3px solid #98B08D;
@@ -605,8 +611,8 @@ p code {
     margin: .5rem 0;
 }
 
-#article ol>li,
-#article ul>li {
+#article ol > li,
+#article ul > li {
     color: #333;
 }
 
@@ -754,23 +760,19 @@ del {
     margin: 0 2px;
 }
 
-/*结束*/
 .card {
-    border-radius: 8px !important;
-    box-shadow: 1px 4px 15px rgb(125 147 178 / 30%);
-    border: 1px solid rgba(208, 206, 206, .4) !important;
     margin: 10px;
 }
 
-/*下雪特效*/
-.xiaxue {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 100001;
+.cardshadow {
+    border: solid #87CEEB4D !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 8px 8px rgba(135, 206, 235, 0.3) !important;
+/ transition: 0.3 s ease-in-out;
+}
+
+.cardshadow:hover {
+    box-shadow: 4px 8px 10px rgba(135, 206, 235, 0.5) !important;
 }
 
 .loveList-title {
@@ -813,10 +815,8 @@ del {
 
 /*祝福边框*/
 .commentframe {
-    padding: 20px 25px 20px 25px;
-    border-radius: 10px;
-    box-shadow: 1px 4px 15px rgb(85 54 54 / 32%);
-    background-color: rgb();
+    padding: 20px 25px 40px 25px;
+    background-color: white;
 }
 
 /* 头像旋转呼吸光环 */
@@ -937,7 +937,7 @@ del {
 /*情话框*/
 .lovecontent {
     border: none;
-    background: linear-gradient(to right, #FFFFFF, pink);
+    background: linear-gradient(to right, white, pink);
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -1051,4 +1051,54 @@ del {
     opacity: 0;
     transform: translateY(-30px);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/*下雪特效*/
+.xiaxue {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100001;
+}
+
+/* 弹窗背景渐变和阴影 */
+.modal-content {
+    background: linear-gradient(to right, pink, white) !important;
+    border-radius: 15px !important;
+    box-shadow: 1px 4px 15px rgb(125 147 178 / 30%) !important;
+}
+
+/* 弹窗按钮样式 */
+.btn-custom {
+    background-color: pink !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+    transition: background-color 0.5s ease !important;
+}
+
+.btn-custom:hover {
+    background-color: #ff3e6c !important;
+}
+
+/* 弹窗标题样式 */
+.modal-title {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: #333 !important;
+}
+
+.modal-body {
+    font-size: 1rem !important;
+    color: #555 !important;
+}
+
+/* 设置弹窗按钮 */
+.btn-close {
+    filter: invert(0) !important;
+    color: black !important;
 }

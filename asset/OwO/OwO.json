@@ -1,734 +1,737 @@
 {
-    "Emoji": {
-        "type": "emoji",
-        "container": [{
-                "icon": "😂",
-                "text": ""
-            },
-            {
-                "icon": "😀",
-                "text": ""
-            },
-            {
-                "icon": "😅",
-                "text": ""
-            },
-            {
-                "icon": "😊",
-                "text": ""
-            },
-            {
-                "icon": "🙂",
-                "text": ""
-            },
-            {
-                "icon": "🙃",
-                "text": ""
-            },
-            {
-                "icon": "😌",
-                "text": ""
-            },
-            {
-                "icon": "😍",
-                "text": ""
-            },
-            {
-                "icon": "😘 ",
-                "text": ""
-            },
-            {
-                "icon": "😜",
-                "text": ""
-            },
-            {
-                "icon": "😝",
-                "text": ""
-            },
-            {
-                "icon": "😏",
-                "text": ""
-            },
-            {
-                "icon": "😒",
-                "text": ""
-            },
-            {
-                "icon": "🙄",
-                "text": ""
-            },
-            {
-                "icon": "😳 ",
-                "text": ""
-            },
-            {
-                "icon": "😡",
-                "text": ""
-            },
-            {
-                "icon": "😔",
-                "text": ""
-            },
-            {
-                "icon": "😫",
-                "text": ""
-            },
-            {
-                "icon": "😱",
-                "text": ""
-            },
-            {
-                "icon": "😭",
-                "text": ""
-            },
-            {
-                "icon": "💩",
-                "text": ""
-            },
-            {
-                "icon": "👻",
-                "text": ""
-            },
-            {
-                "icon": "🙌",
-                "text": ""
-            },
-            {
-                "icon": "🖕",
-                "text": ""
-            },
-            {
-                "icon": "👍",
-                "text": ""
-            },
-            {
-                "icon": "👫",
-                "text": ""
-            },
-            {
-                "icon": "👬",
-                "text": ""
-            },
-            {
-                "icon": "👭",
-                "text": ""
-            },
-            {
-                "icon": "🌚",
-                "text": ""
-            },
-            {
-                "icon": "🌝",
-                "text": ""
-            },
-            {
-                "icon": "🙈",
-                "text": ""
-            },
-            {
-                "icon": "💊",
-                "text": ""
-            },
-            {
-                "icon": "😶",
-                "text": ""
-            },
-            {
-                "icon": "🙏",
-                "text": ""
-            },
-            {
-                "icon": "🍦",
-                "text": ""
-            },
-            {
-                "icon": "🍉",
-                "text": ""
-            },
-            {
-                "icon": "😣",
-                "text": ""
-            }
-        ]
-    },
-    "🐧QQ": {
-        "type": "image",
-        "container": [{
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/aini.gif\"style=\"width: 36px\">",
-                "data": ":@(aini)",
-                "text": "爱你"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/aixin.gif\"style=\"width: 36px\">",
-                "data": ":@(aixin)",
-                "text": "爱心"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/aoman.gif\"style=\"width: 36px\">",
-                "data": ":@(aoman)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/baiyan.gif\"style=\"width: 36px\">",
-                "data": ":@(baiyan)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/bangbangtang.gif\"style=\"width: 36px\">",
-                "data": ":@(bangbangtang)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/baojin.gif\"style=\"width: 36px\">",
-                "data": ":@(baojin)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/baoquan.gif\"style=\"width: 36px\">",
-                "data": ":@(baoquan)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/bishi.gif\"style=\"width: 36px\">",
-                "data": ":@(bishi)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/bizui.gif\"style=\"width: 36px\">",
-                "data": ":@(bizui)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/cahan.gif\"style=\"width: 36px\">",
-                "data": ":@(cahan)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/caidao.gif\"style=\"width: 36px\">",
-                "data": ":@(caidao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/chi.gif\"style=\"width: 36px\">",
-                "data": ":@(chi)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/ciya.gif\"style=\"width: 36px\">",
-                "data": ":@(ciya)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/dabing.gif\"style=\"width: 36px\">",
-                "data": ":@(dabing)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/daku.gif\"style=\"width: 36px\">",
-                "data": ":@(daku)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/dan.gif\"style=\"width: 36px\">",
-                "data": ":@(dan)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/deyi.gif\"style=\"width: 36px\">",
-                "data": ":@(deyi)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/doge.gif\"style=\"width: 36px\">",
-                "data": ":@(doge)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/fadai.gif\"style=\"width: 36px\">",
-                "data": ":@(fadai)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/fanu.gif\"style=\"width: 36px\">",
-                "data": ":@(fanu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/fendou.gif\"style=\"width: 36px\">",
-                "data": ":@(fendou)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/ganga.gif\"style=\"width: 36px\">",
-                "data": ":@(ganga)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/gouyin.gif\"style=\"width: 36px\">",
-                "data": ":@(gouyin)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/guzhang.gif\"style=\"width: 36px\">",
-                "data": ":@(guzhang)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/haixiu.gif\"style=\"width: 36px\">",
-                "data": ":@(haixiu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/hanxiao.gif\"style=\"width: 36px\">",
-                "data": ":@(hanxiao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/haobang.gif\"style=\"width: 36px\">",
-                "data": ":@(haobang)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/haqian.gif\"style=\"width: 36px\">",
-                "data": ":@(haqian)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/hecai.gif\"style=\"width: 36px\">",
-                "data": ":@(hecai)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/hexie.gif\"style=\"width: 36px\">",
-                "data": ":@(hexie)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/huaixiao.gif\"style=\"width: 36px\">",
-                "data": ":@(huaixiao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jie.gif\"style=\"width: 36px\">",
-                "data": ":@(jie)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jingkong.gif\"style=\"width: 36px\">",
-                "data": ":@(jingkong)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jingxi.gif\"style=\"width: 36px\">",
-                "data": ":@(jingxi)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jingya.gif\"style=\"width: 36px\">",
-                "data": ":@(jingya)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/juhua.gif\"style=\"width: 36px\">",
-                "data": ":@(juhua)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/keai.gif\"style=\"width: 36px\">",
-                "data": ":@(keai)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kelian.gif\"style=\"width: 36px\">",
-                "data": ":@(kelian)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/koubi.gif\"style=\"width: 36px\">",
-                "data": ":@(koubi)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/ku.gif\"style=\"width: 36px\">",
-                "data": ":@(ku)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kuaikule.gif\"style=\"width: 36px\">",
-                "data": ":@(kuaikule)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kulou.gif\"style=\"width: 36px\">",
-                "data": ":@(kulou)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kun.gif\"style=\"width: 36px\">",
-                "data": ":@(kun)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/lanqiu.gif\"style=\"width: 36px\">",
-                "data": ":@(lanqiu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/leiben.gif\"style=\"width: 36px\">",
-                "data": ":@(leiben)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/lenghan.gif\"style=\"width: 36px\">",
-                "data": ":@(lenghan)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/liuhan.gif\"style=\"width: 36px\">",
-                "data": ":@(liuhan)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/liulei.gif\"style=\"width: 36px\">",
-                "data": ":@(liulei)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/nanguo.gif\"style=\"width: 36px\">",
-                "data": ":@(nanguo)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/OK.gif\"style=\"width: 36px\">",
-                "data": ":@(OK)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/penxue.gif\"style=\"width: 36px\">",
-                "data": ":@(penxue)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/piezui.gif\"style=\"width: 36px\">",
-                "data": ":@(piezui)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/pijiu.gif\"style=\"width: 36px\">",
-                "data": ":@(pijiu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qiang.gif\"style=\"width: 36px\">",
-                "data": ":@(qiang)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qiaoda.gif\"style=\"width: 36px\">",
-                "data": ":@(qiaoda)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qinqin.gif\"style=\"width: 36px\">",
-                "data": ":@(qinqin)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qiudale.gif\"style=\"width: 36px\">",
-                "data": ":@(qiudale)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/quantou.gif\"style=\"width: 36px\">",
-                "data": ":@(quantou)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/saorao.gif\"style=\"width: 36px\">",
-                "data": ":@(saorao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/se.gif\"style=\"width: 36px\">",
-                "data": ":@(se)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shengli.gif\"style=\"width: 36px\">",
-                "data": ":@(shengli)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shouqiang.gif\"style=\"width: 36px\">",
-                "data": ":@(shouqiang)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shuai.gif\"style=\"width: 36px\">",
-                "data": ":@(shuai)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shui.gif\"style=\"width: 36px\">",
-                "data": ":@(shui)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/tiaopi.gif\"style=\"width: 36px\">",
-                "data": ":@(tiaopi)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/touxiao.gif\"style=\"width: 36px\">",
-                "data": ":@(touxiao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/tu.gif\"style=\"width: 36px\">",
-                "data": ":@(tu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/tuosai.gif\"style=\"width: 36px\">",
-                "data": ":@(tuosai)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/weiqu.gif\"style=\"width: 36px\">",
-                "data": ":@(weiqu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/weixiao.gif\"style=\"width: 36px\">",
-                "data": ":@(weixiao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/woshou.gif\"style=\"width: 36px\">",
-                "data": ":@(woshou)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/wozuimei.gif\"style=\"width: 36px\">",
-                "data": ":@(wozuimei)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/wunai.gif\"style=\"width: 36px\">",
-                "data": ":@(wunai)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xia.gif\"style=\"width: 36px\">",
-                "data": ":@(xia)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xiaojiujie.gif\"style=\"width: 36px\">",
-                "data": ":@(xiaojiujie)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xiaoku.gif\"style=\"width: 36px\">",
-                "data": ":@(xiaoku)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xiaoyanger.gif\"style=\"width: 36px\">",
-                "data": ":@(xiaoyanger)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xieyanxiao.gif\"style=\"width: 36px\">",
-                "data": ":@(xieyanxiao)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xigua.gif\"style=\"width: 36px\">",
-                "data": ":@(xigua)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xu.gif\"style=\"width: 36px\">",
-                "data": ":@(xu)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yangtuo.gif\"style=\"width: 36px\">",
-                "data": ":@(yangtuo)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yinxian.gif\"style=\"width: 36px\">",
-                "data": ":@(yinxian)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yiwen.gif\"style=\"width: 36px\">",
-                "data": ":@(yiwen)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/youhengheng.gif\"style=\"width: 36px\">",
-                "data": ":@(youhengheng)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/youling.gif\"style=\"width: 36px\">",
-                "data": ":@(youling)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yun.gif\"style=\"width: 36px\">",
-                "data": ":@(yun)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zaijian.gif\"style=\"width: 36px\">",
-                "data": ":@(zaijian)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhayanjian.gif\"style=\"width: 36px\">",
-                "data": ":@(zhayanjian)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhemo.gif\"style=\"width: 36px\">",
-                "data": ":@(zhemo)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhouma.gif\"style=\"width: 36px\">",
-                "data": ":@(zhouma)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhuakuang.gif\"style=\"width: 36px\">",
-                "data": ":@(zhuakuang)",
-                "text": "QQ表情"
-            },
-            {
-                "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zuohengheng.gif\"style=\"width: 36px\">",
-                "data": ":@(zuohengheng)",
-                "text": "QQ表情"
-            }
-        ]
-    },
-    "颜文字": {
-        "type": "emoticon",
-        "container": [{
-                "icon": "OωO",
-                "text": "OωO表情包"
-            },
-            {
-                "icon": "|´・ω・)ノ",
-                "text": "Hi"
-            },
-            {
-                "icon": "ヾ(≧∇≦*)ゝ",
-                "text": "开心"
-            },
-            {
-                "icon": "(☆ω☆)",
-                "text": "星星眼"
-            },
-            {
-                "icon": "（╯‵□′）╯︵┴─┴",
-                "text": "掀桌"
-            },
-            {
-                "icon": "￣﹃￣",
-                "text": "流口水"
-            },
-            {
-                "icon": "(/ω＼)",
-                "text": "捂脸"
-            },
-            {
-                "icon": "∠( ᐛ 」∠)＿",
-                "text": "给跪"
-            },
-            {
-                "icon": "(๑•̀ㅁ•́ฅ)",
-                "text": "Hi"
-            },
-            {
-                "icon": "→_→",
-                "text": "斜眼"
-            },
-            {
-                "icon": "୧(๑•̀⌄•́๑)૭",
-                "text": "加油"
-            },
-            {
-                "icon": "٩(ˊᗜˋ*)و",
-                "text": "有木有WiFi"
-            },
-            {
-                "icon": "(ノ°ο°)ノ",
-                "text": "前方高能预警"
-            },
-            {
-                "icon": "(´இ皿இ｀)",
-                "text": "我从未见过如此厚颜无耻之人"
-            },
-            {
-                "icon": "⌇●﹏●⌇",
-                "text": "吓死宝宝惹"
-            },
-            {
-                "icon": "(ฅ´ω`ฅ)",
-                "text": "已阅留爪"
-            },
-            {
-                "icon": "(╯°A°)╯︵○○○",
-                "text": "去吧大师球"
-            },
-            {
-                "icon": "φ(￣∇￣o)",
-                "text": "太萌惹"
-            },
-            {
-                "icon": "ヾ(´･ ･｀｡)ノ\"",
-                "text": "咦咦咦"
-            },
-            {
-                "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
-                "text": "气呼呼"
-            },
-            {
-                "icon": "(ó﹏ò｡)",
-                "text": "我受到了惊吓"
-            },
-            {
-                "icon": "Σ(っ °Д °;)っ",
-                "text": "什么鬼"
-            },
-            {
-                "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
-                "text": "摸摸头"
-            },
-            {
-                "icon": "╮(╯▽╰)╭ ",
-                "text": "无奈"
-            },
-            {
-                "icon": "o(*////▽////*)q ",
-                "text": "脸红"
-            },
-            {
-                "icon": "＞﹏＜",
-                "text": ""
-            },
-            {
-                "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
-                "text": ""
-            },
-            {
-                "icon": "(｡•ˇ‸ˇ•｡)",
-                "text": ""
-            }
-        ]
-    }
+  "Emoji": {
+    "type": "emoji",
+    "container": [
+      {
+        "icon": "😂",
+        "text": ""
+      },
+      {
+        "icon": "😀",
+        "text": ""
+      },
+      {
+        "icon": "😅",
+        "text": ""
+      },
+      {
+        "icon": "😊",
+        "text": ""
+      },
+      {
+        "icon": "🙂",
+        "text": ""
+      },
+      {
+        "icon": "🙃",
+        "text": ""
+      },
+      {
+        "icon": "😌",
+        "text": ""
+      },
+      {
+        "icon": "😍",
+        "text": ""
+      },
+      {
+        "icon": "😘 ",
+        "text": ""
+      },
+      {
+        "icon": "😜",
+        "text": ""
+      },
+      {
+        "icon": "😝",
+        "text": ""
+      },
+      {
+        "icon": "😏",
+        "text": ""
+      },
+      {
+        "icon": "😒",
+        "text": ""
+      },
+      {
+        "icon": "🙄",
+        "text": ""
+      },
+      {
+        "icon": "😳 ",
+        "text": ""
+      },
+      {
+        "icon": "😡",
+        "text": ""
+      },
+      {
+        "icon": "😔",
+        "text": ""
+      },
+      {
+        "icon": "😫",
+        "text": ""
+      },
+      {
+        "icon": "😱",
+        "text": ""
+      },
+      {
+        "icon": "😭",
+        "text": ""
+      },
+      {
+        "icon": "💩",
+        "text": ""
+      },
+      {
+        "icon": "👻",
+        "text": ""
+      },
+      {
+        "icon": "🙌",
+        "text": ""
+      },
+      {
+        "icon": "🖕",
+        "text": ""
+      },
+      {
+        "icon": "👍",
+        "text": ""
+      },
+      {
+        "icon": "👫",
+        "text": ""
+      },
+      {
+        "icon": "👬",
+        "text": ""
+      },
+      {
+        "icon": "👭",
+        "text": ""
+      },
+      {
+        "icon": "🌚",
+        "text": ""
+      },
+      {
+        "icon": "🌝",
+        "text": ""
+      },
+      {
+        "icon": "🙈",
+        "text": ""
+      },
+      {
+        "icon": "💊",
+        "text": ""
+      },
+      {
+        "icon": "😶",
+        "text": ""
+      },
+      {
+        "icon": "🙏",
+        "text": ""
+      },
+      {
+        "icon": "🍦",
+        "text": ""
+      },
+      {
+        "icon": "🍉",
+        "text": ""
+      },
+      {
+        "icon": "😣",
+        "text": ""
+      }
+    ]
+  },
+  "🐧QQ": {
+    "type": "image",
+    "container": [
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/aini.gif\"style=\"width: 36px\">",
+        "data": ":@(aini)",
+        "text": "爱你"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/aixin.gif\"style=\"width: 36px\">",
+        "data": ":@(aixin)",
+        "text": "爱心"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/aoman.gif\"style=\"width: 36px\">",
+        "data": ":@(aoman)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/baiyan.gif\"style=\"width: 36px\">",
+        "data": ":@(baiyan)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/bangbangtang.gif\"style=\"width: 36px\">",
+        "data": ":@(bangbangtang)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/baojin.gif\"style=\"width: 36px\">",
+        "data": ":@(baojin)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/baoquan.gif\"style=\"width: 36px\">",
+        "data": ":@(baoquan)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/bishi.gif\"style=\"width: 36px\">",
+        "data": ":@(bishi)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/bizui.gif\"style=\"width: 36px\">",
+        "data": ":@(bizui)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/cahan.gif\"style=\"width: 36px\">",
+        "data": ":@(cahan)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/caidao.gif\"style=\"width: 36px\">",
+        "data": ":@(caidao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/chi.gif\"style=\"width: 36px\">",
+        "data": ":@(chi)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/ciya.gif\"style=\"width: 36px\">",
+        "data": ":@(ciya)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/dabing.gif\"style=\"width: 36px\">",
+        "data": ":@(dabing)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/daku.gif\"style=\"width: 36px\">",
+        "data": ":@(daku)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/dan.gif\"style=\"width: 36px\">",
+        "data": ":@(dan)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/deyi.gif\"style=\"width: 36px\">",
+        "data": ":@(deyi)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/doge.gif\"style=\"width: 36px\">",
+        "data": ":@(doge)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/fadai.gif\"style=\"width: 36px\">",
+        "data": ":@(fadai)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/fanu.gif\"style=\"width: 36px\">",
+        "data": ":@(fanu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/fendou.gif\"style=\"width: 36px\">",
+        "data": ":@(fendou)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/ganga.gif\"style=\"width: 36px\">",
+        "data": ":@(ganga)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/gouyin.gif\"style=\"width: 36px\">",
+        "data": ":@(gouyin)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/guzhang.gif\"style=\"width: 36px\">",
+        "data": ":@(guzhang)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/haixiu.gif\"style=\"width: 36px\">",
+        "data": ":@(haixiu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/hanxiao.gif\"style=\"width: 36px\">",
+        "data": ":@(hanxiao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/haobang.gif\"style=\"width: 36px\">",
+        "data": ":@(haobang)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/haqian.gif\"style=\"width: 36px\">",
+        "data": ":@(haqian)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/hecai.gif\"style=\"width: 36px\">",
+        "data": ":@(hecai)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/hexie.gif\"style=\"width: 36px\">",
+        "data": ":@(hexie)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/huaixiao.gif\"style=\"width: 36px\">",
+        "data": ":@(huaixiao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jie.gif\"style=\"width: 36px\">",
+        "data": ":@(jie)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jingkong.gif\"style=\"width: 36px\">",
+        "data": ":@(jingkong)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jingxi.gif\"style=\"width: 36px\">",
+        "data": ":@(jingxi)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/jingya.gif\"style=\"width: 36px\">",
+        "data": ":@(jingya)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/juhua.gif\"style=\"width: 36px\">",
+        "data": ":@(juhua)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/keai.gif\"style=\"width: 36px\">",
+        "data": ":@(keai)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kelian.gif\"style=\"width: 36px\">",
+        "data": ":@(kelian)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/koubi.gif\"style=\"width: 36px\">",
+        "data": ":@(koubi)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/ku.gif\"style=\"width: 36px\">",
+        "data": ":@(ku)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kuaikule.gif\"style=\"width: 36px\">",
+        "data": ":@(kuaikule)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kulou.gif\"style=\"width: 36px\">",
+        "data": ":@(kulou)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/kun.gif\"style=\"width: 36px\">",
+        "data": ":@(kun)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/lanqiu.gif\"style=\"width: 36px\">",
+        "data": ":@(lanqiu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/leiben.gif\"style=\"width: 36px\">",
+        "data": ":@(leiben)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/lenghan.gif\"style=\"width: 36px\">",
+        "data": ":@(lenghan)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/liuhan.gif\"style=\"width: 36px\">",
+        "data": ":@(liuhan)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/liulei.gif\"style=\"width: 36px\">",
+        "data": ":@(liulei)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/nanguo.gif\"style=\"width: 36px\">",
+        "data": ":@(nanguo)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/OK.gif\"style=\"width: 36px\">",
+        "data": ":@(OK)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/penxue.gif\"style=\"width: 36px\">",
+        "data": ":@(penxue)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/piezui.gif\"style=\"width: 36px\">",
+        "data": ":@(piezui)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/pijiu.gif\"style=\"width: 36px\">",
+        "data": ":@(pijiu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qiang.gif\"style=\"width: 36px\">",
+        "data": ":@(qiang)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qiaoda.gif\"style=\"width: 36px\">",
+        "data": ":@(qiaoda)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qinqin.gif\"style=\"width: 36px\">",
+        "data": ":@(qinqin)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/qiudale.gif\"style=\"width: 36px\">",
+        "data": ":@(qiudale)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/quantou.gif\"style=\"width: 36px\">",
+        "data": ":@(quantou)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/saorao.gif\"style=\"width: 36px\">",
+        "data": ":@(saorao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/se.gif\"style=\"width: 36px\">",
+        "data": ":@(se)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shengli.gif\"style=\"width: 36px\">",
+        "data": ":@(shengli)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shouqiang.gif\"style=\"width: 36px\">",
+        "data": ":@(shouqiang)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shuai.gif\"style=\"width: 36px\">",
+        "data": ":@(shuai)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/shui.gif\"style=\"width: 36px\">",
+        "data": ":@(shui)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/tiaopi.gif\"style=\"width: 36px\">",
+        "data": ":@(tiaopi)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/touxiao.gif\"style=\"width: 36px\">",
+        "data": ":@(touxiao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/tu.gif\"style=\"width: 36px\">",
+        "data": ":@(tu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/tuosai.gif\"style=\"width: 36px\">",
+        "data": ":@(tuosai)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/weiqu.gif\"style=\"width: 36px\">",
+        "data": ":@(weiqu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/weixiao.gif\"style=\"width: 36px\">",
+        "data": ":@(weixiao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/woshou.gif\"style=\"width: 36px\">",
+        "data": ":@(woshou)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/wozuimei.gif\"style=\"width: 36px\">",
+        "data": ":@(wozuimei)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/wunai.gif\"style=\"width: 36px\">",
+        "data": ":@(wunai)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xia.gif\"style=\"width: 36px\">",
+        "data": ":@(xia)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xiaojiujie.gif\"style=\"width: 36px\">",
+        "data": ":@(xiaojiujie)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xiaoku.gif\"style=\"width: 36px\">",
+        "data": ":@(xiaoku)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xiaoyanger.gif\"style=\"width: 36px\">",
+        "data": ":@(xiaoyanger)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xieyanxiao.gif\"style=\"width: 36px\">",
+        "data": ":@(xieyanxiao)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xigua.gif\"style=\"width: 36px\">",
+        "data": ":@(xigua)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/xu.gif\"style=\"width: 36px\">",
+        "data": ":@(xu)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yangtuo.gif\"style=\"width: 36px\">",
+        "data": ":@(yangtuo)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yinxian.gif\"style=\"width: 36px\">",
+        "data": ":@(yinxian)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yiwen.gif\"style=\"width: 36px\">",
+        "data": ":@(yiwen)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/youhengheng.gif\"style=\"width: 36px\">",
+        "data": ":@(youhengheng)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/youling.gif\"style=\"width: 36px\">",
+        "data": ":@(youling)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/yun.gif\"style=\"width: 36px\">",
+        "data": ":@(yun)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zaijian.gif\"style=\"width: 36px\">",
+        "data": ":@(zaijian)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhayanjian.gif\"style=\"width: 36px\">",
+        "data": ":@(zhayanjian)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhemo.gif\"style=\"width: 36px\">",
+        "data": ":@(zhemo)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhouma.gif\"style=\"width: 36px\">",
+        "data": ":@(zhouma)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zhuakuang.gif\"style=\"width: 36px\">",
+        "data": ":@(zhuakuang)",
+        "text": "QQ表情"
+      },
+      {
+        "icon": "<img src=\"/usr/themes/Brave/asset/OwO/QQ/zuohengheng.gif\"style=\"width: 36px\">",
+        "data": ":@(zuohengheng)",
+        "text": "QQ表情"
+      }
+    ]
+  },
+  "颜文字": {
+    "type": "emoticon",
+    "container": [
+      {
+        "icon": "OωO",
+        "text": "OωO表情包"
+      },
+      {
+        "icon": "|´・ω・)ノ",
+        "text": "Hi"
+      },
+      {
+        "icon": "ヾ(≧∇≦*)ゝ",
+        "text": "开心"
+      },
+      {
+        "icon": "(☆ω☆)",
+        "text": "星星眼"
+      },
+      {
+        "icon": "（╯‵□′）╯︵┴─┴",
+        "text": "掀桌"
+      },
+      {
+        "icon": "￣﹃￣",
+        "text": "流口水"
+      },
+      {
+        "icon": "(/ω＼)",
+        "text": "捂脸"
+      },
+      {
+        "icon": "∠( ᐛ 」∠)＿",
+        "text": "给跪"
+      },
+      {
+        "icon": "(๑•̀ㅁ•́ฅ)",
+        "text": "Hi"
+      },
+      {
+        "icon": "→_→",
+        "text": "斜眼"
+      },
+      {
+        "icon": "୧(๑•̀⌄•́๑)૭",
+        "text": "加油"
+      },
+      {
+        "icon": "٩(ˊᗜˋ*)و",
+        "text": "有木有WiFi"
+      },
+      {
+        "icon": "(ノ°ο°)ノ",
+        "text": "前方高能预警"
+      },
+      {
+        "icon": "(´இ皿இ｀)",
+        "text": "我从未见过如此厚颜无耻之人"
+      },
+      {
+        "icon": "⌇●﹏●⌇",
+        "text": "吓死宝宝惹"
+      },
+      {
+        "icon": "(ฅ´ω`ฅ)",
+        "text": "已阅留爪"
+      },
+      {
+        "icon": "(╯°A°)╯︵○○○",
+        "text": "去吧大师球"
+      },
+      {
+        "icon": "φ(￣∇￣o)",
+        "text": "太萌惹"
+      },
+      {
+        "icon": "ヾ(´･ ･｀｡)ノ\"",
+        "text": "咦咦咦"
+      },
+      {
+        "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+        "text": "气呼呼"
+      },
+      {
+        "icon": "(ó﹏ò｡)",
+        "text": "我受到了惊吓"
+      },
+      {
+        "icon": "Σ(っ °Д °;)っ",
+        "text": "什么鬼"
+      },
+      {
+        "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+        "text": "摸摸头"
+      },
+      {
+        "icon": "╮(╯▽╰)╭ ",
+        "text": "无奈"
+      },
+      {
+        "icon": "o(*////▽////*)q ",
+        "text": "脸红"
+      },
+      {
+        "icon": "＞﹏＜",
+        "text": ""
+      },
+      {
+        "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
+        "text": ""
+      },
+      {
+        "icon": "(｡•ˇ‸ˇ•｡)",
+        "text": ""
+      }
+    ]
+  }
 }
