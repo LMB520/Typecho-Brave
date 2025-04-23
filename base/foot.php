@@ -6,52 +6,14 @@
             ＆ Forever Love</h6>
         <h6 class="lover-card-title"><a href="http://beian.miit.gov.cn/"
                                         target="_blank"> <?php $this->options->ICP() ?></a></h6>
-        <?php if (is_array($this->options->Specialeffects)) {
-            if (in_array('dazi', $this->options->Specialeffects)) {
-                echo '<!--底部打字特效-->
-        <div class="dv">💖<span id="typed" class="lover-card-title">Loading…</span>💖</div>';
-            }
-        }
-        ?>
         <!--版权©勿删-->
         <h6>我们自豪的使用<a href="http://typecho.org" target="_blank">Typecho</a> ＆ <a
                     href="https://blog.lmb520.cn/archives/1196/" target="_blank">Brave</a></h6>
-    </div>
-    <?php if (is_array($this->options->Specialeffects)) {
-        if (in_array('yuqun', $this->options->Specialeffects)) {
-            echo '<!--底部鱼群特效-->
-        <div id="j-fish-skip" style=" position: relative;height: 200px;width: auto;"></div>';
-        }
-    }
-    ?>
-</footer>
-<!--自定义底部-->
+                    <!--自定义底部-->
 <?php $this->options->CustomizeFoot();
 ?>
-<script src="<?php $this->options->themeUrl('/base/main.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('/asset/OwO/OwO.min.js'); ?>"></script>
-<?php if (is_array($this->options->Specialeffects)) {
-    if (in_array('xiaxue', $this->options->Specialeffects)) {
-        echo '<!--引入下雪特效JS文件-->
-        <script src="/usr/themes/Brave/asset/js/xiaxue.js"></script><div class="xiaxue"></div>';
-    }
-    if (in_array('yinghua', $this->options->Specialeffects)) {
-        echo '<!--引入樱花特效JS文件--><script src="/usr/themes/Brave/asset/js/yinghua.js"></script>';
-    }
-    if (in_array('denglong', $this->options->Specialeffects)) {
-        echo '<!--引入灯笼特效JS文件-->
-        <script src="/usr/themes/Brave/asset/js/denglong.js"></script>';
-    }
-    if (in_array('yuqun', $this->options->Specialeffects)) {
-        echo '<!--引入底部鱼群特效JS文件-->
-        <script type="text/javascript" src="/usr/themes/Brave/asset/js/fish.js"></script>';
-    }
-    if (in_array('dazi', $this->options->Specialeffects)) {
-        echo '<!--引入底部打字特效JS文件-->
-        <script type="text/javascript" src="/usr/themes/Brave/asset/js/typed.min.js"></script>';
-    }
-}
-?>
+    </div>
+</footer>
 <?php if ($this->options->pjaxSwitch == '1'): ?>
     <!--pjax代码-->
     <script>
@@ -176,32 +138,6 @@
         showCountdown();
     </script>
 <?php endif;
-?>
-<?php
-if (is_array($this->options->Specialeffects)) {
-    if (in_array('dazi', $this->options->Specialeffects)) {
-        echo '<!--底部打字效果具体实现-->
-        <script>
-        $.ajax({
-        type:"get",
-        url:"https://api.dzzui.com/api/yiyan?format=json2",
-        async:true,
-        success:function(typed) {
-        var list = [];
-        for(var i = 0; i < typed.data.length; i++) {
-        list.push(typed.data[i]["text"]);
-    }
-    $("#typed").typed({
-    strings: list,
-    typeSpeed: 40,
-    loop: true,
-    backDelay: 2000,
-    });
-}
-});
-</script>';
-    }
-}
 ?>
 <?php if (is_array($this->options->Specialeffects)) {
     if (in_array('dianji', $this->options->Specialeffects)) {

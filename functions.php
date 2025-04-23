@@ -197,12 +197,6 @@ function themeConfig($form)
         $announce‌content = new Textarea('announce‌content', NULL, NULL, _t('内容设定'), _t('在此填写公告内容，支持HTML'));
         $form->addInput($announce‌content);
     }
-    $Vaptcha = new Radio('Vaptcha',
-        array(
-            '1' => _t('启用'),
-            '0' => _t('关闭')
-        ), '0', _t('Vaptcha人机验证开关'), _t('远离人机留言，人机快滚开o(￣ヘ￣o#)。<br>启用后提交所有评论时都会进行人机验证，以防止人机刷评论，具体配置请查看食用教程'));
-    $form->addInput($Vaptcha);
     $pjaxSwitch = new Radio('pjaxSwitch',
         array(
             '1' => _t('启用'),
@@ -220,8 +214,6 @@ function themeConfig($form)
             'xiaxue' => _t('下雪特效❄'),
             'yinghua' => _t('樱花特效🌸'),
             'denglong' => _t('灯笼特效🏮'),
-            'yuqun' => _t('底部鱼群特效🐳'),
-            'dazi' => _t('底部打字特效📠'),
             'dianji' => _t('点击爱心特效🖱'),
         ],
         [], _t('需要显示的特效'), _t('选择你喜欢的特效在全局显示〃•ω‹〃')
@@ -231,7 +223,7 @@ function themeConfig($form)
     $form->addInput($CustomizeHead);
     $stylemyself = new Textarea('stylemyself', NULL, NULL, _t('自定义样式'), _t('已包含&lt;style&gt;标签，请直接书写样式'));
     $form->addInput($stylemyself);
-    $CustomizeFoot = new Textarea('CustomizeFoot', NULL, NULL, _t('底部自定义内容'), _t('位于底部，footer之后body之前，适合放置一些js或自定义内容，如网站统计代码等'));
+    $CustomizeFoot = new Textarea('CustomizeFoot', NULL, NULL, _t('底部自定义内容'), _t('位于底部，footer之内，适合自定义内容'));
     $form->addInput($CustomizeFoot);
     echo '
     <style>
@@ -272,16 +264,6 @@ function themeConfig($form)
         <li>PHP版本：' . PHP_VERSION . '</li>
         <li>网站服务器：' . $_SERVER['SERVER_SOFTWARE'] . '</li>
         <li>Typecho版本：' . Typecho_Widget::widget('Widget_Options')->Version . '</li>';
-    // Vaptcha插件未启用提醒
-    echo '<h4>';
-    if ($Vaptcha == '1' && !Typecho_Plugin::exists('Vaptcha')) {
-        echo '请启用并配置 <a href="https://www.123912.com/s/tNNLjv-Jr0yh">Vaptcha</a> 插件<span style="color: red;">(必要)</span><br>';
-    }
-    // XQLocation插件未启用提醒
-    if ($blessSwitch == '1' && !Typecho_Plugin::exists('XQLocation')) {
-        echo '请启用并配置 <a href="https://www.toubiec.cn/1194.html">XQLocation</a> 插件<span style="color: orange;">(非必要)</span>';
-    }
-    echo '</h4>';
     echo '<hr><h3>更新检测</h3>';
     //版本更新检测
     include_once 'base/update.php';

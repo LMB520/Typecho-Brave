@@ -162,12 +162,6 @@ echo $commentClass;
                         }
                     );
                 </script>
-                <?php if ($this->options->Vaptcha == '1'): ?>
-                    <div style="width: 100%;display: flex;justify-content: flex-end;margin-right: 10px;margin-top: -33.5px;">
-                        <?php $this->vaptchastyle(); ?>
-                    </div><br>
-                <?php endif;
-                ?>
                 <div class="form-group">
                     <button id="button" type="submit" class="float-right btn btn-outline-danger" style="float: right;">
                         <svg t="1659667552303" class="icon" viewBox="0 0 1024 1024" version="1.1"

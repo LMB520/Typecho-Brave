@@ -21,7 +21,7 @@
     <!--引入固定CSS文件-->
     <link href="/usr/themes/Brave/base/style.css" rel="stylesheet">
     <link href="https://jsd.vxo.im/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php $this->options->themeUrl('/asset/OwO/OwO.min.css'); ?>" rel="stylesheet">
+    <link href="/usr/themes/Brave/asset/OwO/OwO.min.css" rel="stylesheet">
     <link href="/usr/themes/Brave/botui/botui.min.css" rel="stylesheet">
     <link href="/usr/themes/Brave/botui/botui-theme-default.css" rel="stylesheet">
     <title><?php $this->archiveTitle(array(
@@ -35,12 +35,28 @@
 </head>
 <body>
 <!--引入固定JS文件-->
+<script src="/usr/themes/Brave/base/main.js"></script>
+<script src="/usr/themes/Brave/asset/OwO/OwO.min.js"></script>
 <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"
         type="application/javascript"></script>
 <script src="https://jsd.vxo.im/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://jsd.vxo.im/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/nprogress/0.2.0/nprogress.min.js"
         type="application/javascript"></script>
+<?php if (is_array($this->options->Specialeffects)) {
+    if (in_array('xiaxue', $this->options->Specialeffects)) {
+        echo '<!--引入下雪特效JS文件-->
+        <script src="/usr/themes/Brave/asset/js/xiaxue.js"></script><div class="xiaxue"></div>';
+    }
+    if (in_array('yinghua', $this->options->Specialeffects)) {
+        echo '<!--引入樱花特效JS文件--><script src="/usr/themes/Brave/asset/js/yinghua.js"></script>';
+    }
+    if (in_array('denglong', $this->options->Specialeffects)) {
+        echo '<!--引入灯笼特效JS文件-->
+        <script src="/usr/themes/Brave/asset/js/denglong.js"></script>';
+    }
+}
+?>
 <?php if ($this->options->pjaxSwitch == '1'): ?>
     <!--引入pjax的JS文件-->
     <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.pjax/2.0.1/jquery.pjax.min.js"
