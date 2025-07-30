@@ -1,6 +1,6 @@
 <?php
 // 本地版本号
-$local_version = 'Brave-Lv1.5.4';
+$local_version = 'Brave-Lv1.5.5';
 
 // 获取 GitHub 上最新版本信息
 function fetch_latest_version_info($api_url)
