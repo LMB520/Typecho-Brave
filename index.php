@@ -3,7 +3,7 @@
  * 勇敢爱 - Typecho情侣主题(魔改版)
  * @package     Brave
  * @author      林墨白
- * @version     Lv1.5.4
+ * @version     Lv1.5.5
  * @link        https://blog.lmb520.cn
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
