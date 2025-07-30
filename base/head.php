@@ -37,7 +37,7 @@
 <!--引入固定JS文件-->
 <script src="/usr/themes/Brave/base/main.js"></script>
 <script src="/usr/themes/Brave/asset/OwO/OwO.min.js"></script>
-<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"
         type="application/javascript"></script>
 <script src="https://jsd.vxo.im/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://jsd.vxo.im/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
@@ -59,7 +59,7 @@
 ?>
 <?php if ($this->options->pjaxSwitch == '1'): ?>
     <!--引入pjax的JS文件-->
-    <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.pjax/2.0.1/jquery.pjax.min.js"
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"
             type="application/javascript"></script>
 <?php endif;
 ?>
