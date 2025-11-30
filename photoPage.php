@@ -47,11 +47,11 @@ function storage($storage)
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet"
-          href="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/css/main.css"/>
+          href="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/css/main.css"/>
     <link rel="shortcut icon" href="<?php $this->options->siteUrl(); ?>/favicon.ico">
     <noscript>
         <link rel="stylesheet"
-              href="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/css/noscript.css"/>
+              href="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/css/noscript.css"/>
     </noscript>
 </head>
 
@@ -158,12 +158,12 @@ function storage($storage)
     document.getElementById("count_CN").innerHTML = datas.length;
 </script>
 <!-- Scripts -->
-<script src="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/jquery.min.js"></script>
-<script src="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/jquery.poptrox.min.js"></script>
-<script src="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/browser.min.js"></script>
-<script src="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/breakpoints.min.js"></script>
-<script src="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/util.js"></script>
-<script src="<?php $this->options->photoPageJsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/main.js"></script>
+<script src="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/jquery.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/jquery.poptrox.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/browser.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/breakpoints.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/util.js"></script>
+<script src="<?php $this->options->JsDelivr() ?><?php usePublicCdn(); ?>/Multiverse/js/main.js"></script>
 </body>
 
 </html>

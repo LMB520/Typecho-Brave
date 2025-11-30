@@ -47,6 +47,8 @@ function themeConfig($form)
     $form->addInput($girlname);
     $ICP = new Text('ICP', NULL, NULL, _t('ICP备案号'), _t('如果没有可以不填'));
     $form->addInput($ICP);
+    $JsDelivr = new Text('JsDelivr', NULL, NULL, _t('JsDelivr镜像源'), _t('在此输入自定义JsDelivr镜像源，并且请加上http(s)://和/，不会请查看食用教程'));
+        $form->addInput($JsDelivr);
     $lovetimeSwitch = new Radio(
         'lovetimeSwitch',
         array(
@@ -178,8 +180,6 @@ function themeConfig($form)
         $form->addInput($photoPageIcon);
         $photoPageLink = new Text('photoPageLink', NULL, NULL, _t('链接'), _t('在此输入相册页面链接'));
         $form->addInput($photoPageLink);
-        $photoPageJsDelivr = new Text('photoPageJsDelivr', NULL, NULL, _t('JsDelivr源'), _t('在此输入相册页面中的JsDelivr源，并且请加上http(s)://和/，不会请查看食用教程'));
-        $form->addInput($photoPageJsDelivr);
     }
     $announce‌Switch = new Radio(
         'announce‌Switch',
@@ -258,8 +258,8 @@ function themeConfig($form)
 <div class="tips">
         <h3>Brave主题由 <a href="https://blog.zwying.com/">赵阿卷</a> 开发创作
             <br>
-            当前使用的Brave主题由 <a href="https://www.lmb520.cn/">林墨白</a> 魔改<br>
-            配置主题时，请务必查看<a href="https://blog.lmb520.cn/archives/1196/">食用教程</a>
+            当前使用的Brave主题由 <a href="https://www.lmb.blue/">林墨白</a> 魔改<br>
+            配置主题时，请务必查看<a href="https://blog.lmb.blue/archives/1196/">食用教程</a>
         </h3><hr><h3>系统信息</h3>
         <li>PHP版本：' . PHP_VERSION . '</li>
         <li>网站服务器：' . $_SERVER['SERVER_SOFTWARE'] . '</li>

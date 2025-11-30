@@ -3,10 +3,10 @@
 <head>
     <meta charset="<?php $this->options->charset(); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </div>
+    
     <!--引入头部自定义内容-->
-    <?php $this->options->CustomizeHead();
-    ?>
+    <?php $this->options->CustomizeHead(); ?>
+    
     <style>
         /*引入自定义背景*/
         body {
@@ -15,54 +15,64 @@
         }
 
         /*引入自定义样式*/
-        <?php $this->options->stylemyself();
-        ?>
+        <?php $this->options->stylemyself(); ?>
     </style>
+    
     <!--引入固定CSS文件-->
     <link href="/usr/themes/Brave/base/style.css" rel="stylesheet">
-    <link href="https://jsd.vxo.im/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php $this->options->JsDelivr() ?>npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php $this->options->JsDelivr() ?>npm/nprogress@0.2.0/nprogress.min.css"/>
     <link href="/usr/themes/Brave/asset/OwO/OwO.min.css" rel="stylesheet">
     <link href="/usr/themes/Brave/botui/botui.min.css" rel="stylesheet">
     <link href="/usr/themes/Brave/botui/botui-theme-default.css" rel="stylesheet">
-    <title><?php $this->archiveTitle(array(
+    
+    <title>
+        <?php $this->archiveTitle(array(
             'category' => _t('分类 %s 下的文章'),
             'search' => _t('包含关键字 %s 的文章'),
             'tag' => _t('标签 %s 下的文章'),
             'author' => _t('%s 发布的文章')
-        ), '', ' - ');
-        ?><?php $this->options->title();
-        ?></title>
+        ), '', ' - '); ?>
+        <?php $this->options->title(); ?>
+    </title>
 </head>
 <body>
+
 <!--引入固定JS文件-->
 <script src="/usr/themes/Brave/base/main.js"></script>
 <script src="/usr/themes/Brave/asset/OwO/OwO.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"
-        type="application/javascript"></script>
-<script src="https://jsd.vxo.im/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://jsd.vxo.im/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/nprogress/0.2.0/nprogress.min.js"
-        type="application/javascript"></script>
-<?php if (is_array($this->options->Specialeffects)) {
-    if (in_array('xiaxue', $this->options->Specialeffects)) {
-        echo '<!--引入下雪特效JS文件-->
-        <script src="/usr/themes/Brave/asset/js/xiaxue.js"></script><div class="xiaxue"></div>';
-    }
-    if (in_array('yinghua', $this->options->Specialeffects)) {
-        echo '<!--引入樱花特效JS文件--><script src="/usr/themes/Brave/asset/js/yinghua.js"></script>';
-    }
-    if (in_array('denglong', $this->options->Specialeffects)) {
-        echo '<!--引入灯笼特效JS文件-->
-        <script src="/usr/themes/Brave/asset/js/denglong.js"></script>';
+<script src="<?php $this->options->JsDelivr() ?>npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?>npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?>npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="<?php $this->options->JsDelivr() ?>npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+<?php
+// 特效JS文件引入
+if (is_array($this->options->Specialeffects)) {
+    $effects = [
+        'xiaxue' => ['js' => '/usr/themes/Brave/asset/js/xiaxue.js', 'html' => '<div class="xiaxue"></div>'],
+        'yinghua' => ['js' => '/usr/themes/Brave/asset/js/yinghua.js'],
+        'denglong' => ['js' => '/usr/themes/Brave/asset/js/denglong.js']
+    ];
+    
+    foreach ($effects as $effect => $config) {
+        if (in_array($effect, $this->options->Specialeffects)) {
+            echo "<!--引入{$effect}特效JS文件-->\n";
+            echo '<script src="' . $config['js'] . '"></script>';
+            if (isset($config['html'])) {
+                echo $config['html'];
+            }
+            echo "\n";
+        }
     }
 }
 ?>
+
 <?php if ($this->options->pjaxSwitch == '1'): ?>
     <!--引入pjax的JS文件-->
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"
-            type="application/javascript"></script>
-<?php endif;
-?>
+    <script src="<?php $this->options->JsDelivr() ?>npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+<?php endif; ?>
+
 <!--侧边标签栏-->
 <div class="elevator_item" id="elevator_item" style="display:block;">
     <a class="hd-time-limited" href="./" rel="nofollow"></a>
@@ -121,50 +131,50 @@
                   fill="#474747" p-id="1266"></path>
         </svg>
     </a>
+    
     <script>
+        // 返回顶部功能
         var BackToTop = document.getElementById('BackToTopButton');
-        BackToTop.addEventListener('click', function () {
-                scrollToTop(600);
-            }
-        );
-        window.addEventListener('scroll', function () {
-                var scrollDistance = window.scrollY || document.documentElement.scrollTop;
-                if (scrollDistance > 200) {
-                    BackToTop.style.display = 'block';
-                } else {
-                    BackToTop.style.display = 'none';
-                }
-            }
-        );
+        
+        BackToTop.addEventListener('click', function() {
+            scrollToTop(600);
+        });
+        
+        window.addEventListener('scroll', function() {
+            var scrollDistance = window.scrollY || document.documentElement.scrollTop;
+            BackToTop.style.display = scrollDistance > 200 ? 'block' : 'none';
+        });
 
         function scrollToTop(duration) {
             const start = window.scrollY;
             const startTime = performance.now();
 
-            // 创建独立图层
             const scrollContainer = document.createElement('div');
             scrollContainer.style.transform = `translateY(${start}px)`;
             document.body.appendChild(scrollContainer);
 
-            requestAnimationFrame(function animate(time) {
+            function animate(time) {
                 const progress = Math.min((time - startTime) / duration, 1);
                 const y = start * (1 - progress);
 
                 scrollContainer.style.transform = `translateY(${y}px)`;
-                window.scrollTo(0, 0); // 同步实际滚动位置
+                window.scrollTo(0, 0);
 
                 if (progress < 1) {
                     requestAnimationFrame(animate);
                 } else {
                     document.body.removeChild(scrollContainer);
                 }
-            });
+            }
+            
+            requestAnimationFrame(animate);
         }
     </script>
 </div>
+
 <?php if ($this->options->announce‌Switch == '1'): ?>
-    <div class="modal fade" id="announcementModal" tabindex="-1" aria-labelledby="announcementModalLabel"
-         aria-hidden="true">
+    <!--公告弹窗-->
+    <div class="modal fade" id="announcementModal" tabindex="-1" aria-labelledby="announcementModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -180,25 +190,23 @@
             </div>
         </div>
     </div>
+    
     <script>
-
+        // 公告弹窗逻辑
         if (!localStorage.getItem('dontShowAgain')) {
             var myModal = new bootstrap.Modal(document.getElementById('announcementModal'));
             myModal.show();
         }
 
-        // 设置 1 小时内不再弹出的功能
-        document.getElementById('dontShowAgainBtn').addEventListener('click', function () {
-            // 获取当前时间，并设置为 1 小时后的时间
-            var expireTime = new Date().getTime() + 60 * 60 * 1000; // 1 小时后过期
+        document.getElementById('dontShowAgainBtn').addEventListener('click', function() {
+            var expireTime = new Date().getTime() + 60 * 60 * 1000;
             localStorage.setItem('dontShowAgain', expireTime);
-            // 关闭弹窗
+            
             var myModal = bootstrap.Modal.getInstance(document.getElementById('announcementModal'));
             myModal.hide();
         });
 
-        // 检查是否已过期，如果过期了可以重新显示弹窗
-        window.addEventListener('load', function () {
+        window.addEventListener('load', function() {
             var expireTime = localStorage.getItem('dontShowAgain');
             if (expireTime && new Date().getTime() > expireTime) {
                 localStorage.removeItem('dontShowAgain');
@@ -206,4 +214,5 @@
         });
     </script>
 <?php endif; ?>
+
 <?php $this->head(); ?>

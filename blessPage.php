@@ -53,8 +53,7 @@ echo $commentClass;
                     </div>
                     <div class="comment-text">
                         <?php
-                        $theme_url = isset($GLOBALS['theme_url']) ? $GLOBALS['theme_url'] : 'default_value';
-                        $cos = preg_replace('#\:@\((.*?)\)#', '<img style="width:20px;height:20px" src="' . $theme_url . '/usr/themes/Brave/asset/OwO/QQ/$1.gif">', $comments->content);
+                        $cos = preg_replace('#\:@\((.*?)\)#', '<img style="width:20px;height:20px" src="/usr/themes/Brave/asset/OwO/QQ/$1.gif">', $comments->content);
                         echo $cos;
                         ?>
                     </div>
